@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    background: url('../images/pattern-background-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background: #fff;
+    max-width: 416px;
+    border-radius: 1rem;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-principal {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.descricao {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+.img-principal {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: hsl(225, 100%, 98%);
+    border-radius: 0.8rem;
+    padding: 1.5rem 1rem;
+    margin: 2rem 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-price {
+    display: flex;
+    align-items: center;
+}
+
+.img-music {
+    width: 48px;
+    margin-right: 1rem;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    font-size: 90%;
+    transition: all 0.3s;
+
+}
+
+.change:hover {
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+.botao {
+    cursor: pointer;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #766cf1;
+}
+
+.ancora {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.ancora:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
